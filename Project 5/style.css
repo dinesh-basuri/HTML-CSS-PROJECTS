@@ -1,0 +1,85 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+header nav {
+  background-color: black;
+  color: white;
+  padding: 1px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 8vh;
+}
+nav section {
+  display: flex;
+}
+nav section div {
+  width: 100px;
+  border-right: 1px solid white;
+}
+nav section div img {
+  width: 60px;
+  height: 95%;
+}
+nav section ul {
+  display: flex;
+  align-items: center;
+  list-style: none; 
+}
+ul li {
+  margin-left: 30px;
+  font-size: 12px;
+  font-family: 'poppins',sans-serif;
+}
+ul li {
+  display: flex;
+  align-items: center;
+}
+ul li .material-symbols-outlined{
+  font-size: 15px;
+  padding-left: 2px;
+  padding-top: 3px;
+}
+nav button {
+  padding: 5px 15px;
+  outline: none;
+  background-color: rgb(220, 43, 226);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+}
+main {
+  background: url(/Images/bg.png) no-repeat fixed center center;
+  background-size:cover;
+  height: 92vh;
+  padding-top: 15%;
+}
+main h1 {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  font-family: 'poppins',sans-serif;
+}
+main p {
+  color: white;
+  text-align: center;
+  font-family: 'poppins',sans-serif;
+  margin-top: 10px;
+} 
+main button {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 25px;
+  padding: 10px 15px;
+  outline: none;
+  background-color: rgb(220, 43, 226);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}

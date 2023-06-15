@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mini-project</title>
+  <style>
+    body {
+      background-color: #f2f6ff;
+      text-align: center;
+    }
+    form {
+      width: 370px;
+      height: 500px;
+      margin-top: 50px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      background-color: white;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+    }
+    h3 {
+      text-align: center;
+      padding-top: 40px;
+      font-size: 32px;
+    }
+    .img-items {
+      background-color:#f2f6ff ;
+      text-align: center;
+    }
+    img {
+      width: 35px;
+      height: 35px; 
+      padding-right: 20px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    .input-section {
+      width: 270px;
+      margin-top: 30px;
+      margin-left: 40px;
+    }
+    .input-items {
+      margin-bottom: 20px;
+      width: 100%;
+      padding: 6px;
+      border-top: 0;
+      border-left: 0;
+      border-right: 0;
+      border-bottom: 1px solid #ccc;
+    }
+    .button-section {
+      text-align: center;
+    }
+    .button {
+      background-color: #0056ff;
+      border: 0;
+      padding: 12px 24px;
+      border-radius: 5px;
+      font-size: 18px;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <section id="form-section">
+    <form>
+      <h3><strong>Register</strong></h3>
+      <section class="img-items">
+        <img src="http://pluspng.com/img-png/google-logo-png-open-2000.png" alt="google-logo">
+        <img src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/facebook_circle-512.png" alt="facebook-logo">
+        <img src="https://pngimg.com/d/github_PNG70.png" alt="githug-logo">
+        <img src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/linkedin_circle-512.png" alt="linkedln-logo">
+      </section>
+      <section class="input-section">
+        <input type="text" name="username" placeholder="username" class="input-items" autofocus>
+        <input type="email" name="email" placeholder="email" class="input-items">
+        <input type="password" name="password" placeholder="password" required class="input-items">
+        <input type="password" name="confirm-password" placeholder="confirm-password" required class="input-items">
+        <section class="button-section">
+          <input type="submit" value="Register" class="button">
+        </section>
+      </section>
+    </form>
+  </section>
+</body>
+</html>

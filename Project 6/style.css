@@ -1,0 +1,141 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+header nav {
+  padding: 3% 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav section img {
+  width: 100px;
+}
+nav section ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+nav section ul li {
+  margin-right: 30px;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 500;
+  font-size: 18px;
+}
+nav section ul li:first-of-type {
+  font-size: 20px;
+  font-weight: bolder;
+  position: relative;
+}
+nav section ul li:first-of-type::after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 1.5px;
+  width: 70%;
+  background-color: black;
+  margin-left: 7px;
+}
+nav .search-section {
+  display: flex;
+  align-items: center;
+}
+nav .search-section input {
+  width: 100px;
+  padding: 5px 10px;
+  border: 1.5px solid black;
+  border-radius: 5px;
+  margin-left: 5px;
+  outline: none;
+}
+main {
+  margin-top: 5%;
+  padding-left: 5%;
+  padding-right: 4%;
+  display: flex;
+}
+.left-section {
+  width: 30%;
+}
+.right-section {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.main-image {
+  width: 90%;
+  position: relative;
+  bottom: 5%;
+}
+.squares {
+  position: absolute;
+  left: 13%;
+  bottom: 13%;
+  width: 250px;
+  z-index: -1;
+}
+.right-section h1 {
+  font-size: 60px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 25px;
+}
+.right-section p {
+  font-size: 15px;
+  text-align: center;
+  font-family: 'poppins', sans-serif;
+  opacity: 0.6;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.input-section {
+  text-align: center;
+  margin-top: 10%;
+}
+.input-section input {
+  outline: none;
+  border: 1.5px solid black;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+.input-section button {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.icon-section {
+  margin-top: 10%;
+  text-align: center;
+}
+.icon-section p {
+  opacity: 0.8;
+  margin-bottom: 15px;
+}
+.icons {
+  width: 25px;
+  margin-right: 15px;
+}
+.globe-img {
+  width: 40px;
+  position: absolute;
+  top: 15%;
+  left: 52%;
+}
+.star1,.star2 {
+  position: absolute;
+}
+.star1 {
+  top: 17%;
+  width: 40px;
+  right: 5%;
+}
+.star2 {
+  width: 30px;
+  bottom: 17%;
+  left: 35%;
+}
