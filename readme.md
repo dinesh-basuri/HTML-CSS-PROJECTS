@@ -14,6 +14,10 @@
 
 [click here](/Html-Forms-MiniProject/readme.md)
 
+### HTML Main-Project
+
+[click here](https://dinesh-html-mainproject.netlify.app/)
+
 ### HTML Tables Mini Project
 
 [click here](/Html-tables-MiniProject/readme.md)
