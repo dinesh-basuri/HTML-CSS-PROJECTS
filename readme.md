@@ -2,6 +2,10 @@
 
 ## All the projects are made using pure HTML and CSS
 
+### RealEstate Website
+
+[click here to view](./RealEstate%20website/)
+
 ### HTML-CSS Course Cards
 
 [click here](/HTML-CSS%20course%20cards/readme.md)
